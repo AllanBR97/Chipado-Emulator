@@ -15,6 +15,8 @@ struct CPU
 	uint8_t SP; // Stack pointer
 	uint8_t DL; // Delay timer
 	uint8_t ST; // Sound timer
+	uint8_t display[64][32]; // display
+
 	int16_t I; // Store address memory
 	int16_t PC; // Program counter
 	int16_t Stack[16]; // Stack
